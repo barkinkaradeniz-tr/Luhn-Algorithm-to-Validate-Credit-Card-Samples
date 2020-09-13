@@ -4,7 +4,7 @@ The Luhn algorithm or Luhn formula, also known as the "modulus 10" or "mod 10" a
 The algorithm is in the public domain and is in wide use today. It is specified in ISO/IEC 7812-1.[1] It is not intended to be a cryptographically secure hash function; it was designed to protect against accidental errors, not malicious attacks. Most credit cards and many government identification numbers use the algorithm as a simple method of distinguishing valid numbers from mistyped or otherwise incorrect numbers.
 Contents
 
-## Description [wiki](https://en.wikipedia.org/wiki/Luhn_algorithm)
+## [Description](https://en.wikipedia.org/wiki/Luhn_algorithm)
 
 The formula verifies a number against its included check digit, which is usually appended to a partial account number to generate the full account number. This number must pass the following test:
 
@@ -45,6 +45,3 @@ Each of the numbers 79927398710, 79927398711, 79927398712, 79927398713, 79927398
     Thus these account numbers are all invalid except possibly 79927398713 which has the correct check digit.
 
 Alternately, you can use the same checksum creation algorithm, ignoring the checksum already in place as if it had not yet been calculated. Then calculate the checksum and compare this calculated checksum to the original checksum included with the credit card number. If the included checksum matches the calculated checksum, then the number is valid. 
-
-
-*
